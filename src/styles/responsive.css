@@ -1,0 +1,304 @@
+@media (max-width: 991.98px) {
+  .hero {
+    padding-top: 120px;
+  }
+
+  .hero .hero-description h1 {
+    font-size: 24px;
+  }
+
+  .hero .hero-description p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .hero .contant {
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+
+  .project {
+    padding-top: 80px;
+  }
+
+  .project h1 {
+    font-size: 24px;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+
+  .project-card {
+    padding: 10px;
+  }
+
+  .project-card h4 {
+    font-size: 10px;
+  }
+
+  .project-card p {
+    font-size: 14px;
+  }
+
+  .project-card svg {
+    font-size: 14px;
+    color: #149dde;
+  }
+
+  .project-card .poster-project img {
+    border-radius: 10px 0 0 0;
+  }
+
+  .project .more {
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+
+  .project .project-list {
+    margin-bottom: 50px;
+  }
+
+  .project-page {
+    padding-top: 100px;
+  }
+  
+  .detail-card {
+    margin-bottom: 100px;
+  }
+  
+  .detail-card .project-description h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  
+  .detail-card .project-description p{
+    font-size: 14px;
+  }
+  
+  .detail-card .project-description li{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .skills {
+    padding-top: 110px;
+  }
+
+  .skills h1 {
+    font-size: 24px;
+  }
+
+  .skills .list-skills img {
+    max-width: 10%;
+  }
+
+  .skills .list-frameworks img {
+    max-width: 10%;
+  }
+
+  .contact-page {
+    padding-top: 140px;
+    height: 100vh;
+  }
+  
+  .contact-page h2 {
+    font-size: 18px;
+  }
+  
+  .link-contact .btn {
+    font-size: 16px;
+  }
+
+  .footer {
+    padding-top: 80px;
+  }
+
+  .footer h1 {
+    font-size: 24px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .footer .sosial-media {
+    font-size: 25px;
+  }
+
+  .blur {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar .navbar-brand img {
+    width:15%;
+  }
+
+  .navbar .navbar-brand h1 {
+    font-size: 18px;
+  }
+
+  .navbar-navigation {
+    display: none;
+  }
+
+  .nav-links-mobile .navbar-item {
+    list-style-type:none !important;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  
+  .nav-links-mobile .navbar-item .navbar-link {
+    text-decoration: none;
+    color: var(--font2);  
+    width: 100%;
+  }
+
+  .nav-links-mobile {
+    position: fixed;
+    display: block;
+    list-style: none;
+    background-color: #161821;
+    left: 0;
+    top: 60px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+
+  .menu-button {
+    border: none;
+    display: block;
+    font-size: 30px;
+    color: var(--font);
+    background-color: transparent;
+  }
+
+  .hero {
+    padding-top: 130px;
+  }
+
+  .hero .hero-description h1 {
+    font-size: 22px;
+  }
+
+  .hero .contant {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .hero .hero-image img{
+    margin-bottom: 20px;
+  }
+
+  .project h1 {
+    font-size: 22px;
+  }
+
+  .project .more {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .project .project-list {
+    margin-bottom: 20px;
+  }
+
+  .project-page {
+    padding-top: 100px;
+  }
+  
+  .detail-card {
+    margin-bottom: 80px;
+  }
+  
+  .detail-card .project-description h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  
+  .detail-card .project-description p{
+    font-size: 14px;
+  }
+  
+  .detail-card .project-description li{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .detail-card .project-description .detail-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .skills {
+    padding-top: 100px;
+  }
+
+  .skills h1 {
+    font-size: 22px;
+  }
+
+  .skills .list-skills img {
+    max-width: 12%;
+  }
+
+  .skills .list-frameworks img {
+    max-width: 12%;
+  }
+
+  .contact-page {
+    padding-top: 120px;
+  }
+  
+  .contact-image img{
+    height: 180px;
+  }
+  
+  .contact-page h2 {
+    font-size: 16px;
+  }
+  
+  .link-contact .btn {
+    font-size: 14px;
+  }
+  
+  
+  .link-contact .resume {
+    margin-bottom: 50px;
+  }
+  
+
+  .footer h1 {
+    font-size: 22px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer .sosial-media {
+    font-size: 25px;
+  }
+
+  .navigation {
+    margin-top: -15px;
+  }
+
+  .navbar-nav {
+    opacity: 0;
+  }
+
+  .navbar-social-media {
+    opacity: 0;
+  }
+}

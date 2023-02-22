@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  --primary: #0a46a7;
+  --primary-hover: #162b4b;
+  --background: #161821;
+  --font: #fff;
+  --font2: #757575;
+  --icon: #9fa6b0;
+  --card: #282833;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+  color: var(--font);
+  background-image: radial-gradient(#0a46a7 0.5px, #161821 0.8px);
+  background-size: 10px 10px;
+}
+
+.navbar {
+  width: 100vw;
+}
+
+.navbar.navbar-scroll {
+  background-color: var(--background);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-brand img {
+  width: 100%;
+}
+
+.navbar .navbar-brand h1 {
+  font-size: 24px;
+  font-weight: 600px;
+  color: var(--font);
+}
+
+.navbar-navigation .navbar-item {
+  list-style-type:none !important;
+}
+
+.navbar-navigation .navbar-item .navbar-link {
+  text-decoration: none;
+  color: var(--font2);
+}
+
+
+.navbar-navigation .navbar-item .navbar-link:hover{
+  text-decoration: none;
+  color: var(--font);
+}
+
+.active {
+  font-weight: 600;
+  color: var(--font) !important;
+}
+
+.navbar-sosmed .navbar-link-sosmed {
+  font-size: 22px;
+  list-style: none;
+  color: var(--font2) !important;
+  text-decoration: none;
+}
+
+.menu-button {
+  display: none;
+}
+
+.hero {
+  padding-top: 150px;
+}
+
+.hero-description {
+  z-index: 1;
+}
+
+.hero .hero-description h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.hero .hero-description p {
+  font-size: 18px;
+}
+
+.hero .contant {
+  border: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: var(--primary);
+}
+
+.hero .hero-image img{
+  width: 100%;
+}
+
+.project {
+  padding-top: 150px;
+}
+
+.project h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.project p {
+  font-size: 18px;
+}
+
+.project-card {
+  padding: 20px;
+  background-color: var(--card);
+}
+
+.project-card h4 {
+  font-size: 14px;
+  color: #149dde;
+}
+
+.project-card p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.project-card svg {
+  font-size: 24px;
+  color: #149dde;
+}
+
+.project-card .poster-project img {
+  width: 100%;
+  border-radius: 20px 0 0 0;
+}
+
+.project .project-list {
+  margin-bottom: 80px;
+}
+.project .more {
+  border: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: var(--primary);
+}
+
+.project-page {
+  padding-top: 150px;
+  margin-bottom: -100px;
+}
+
+.detail-card {
+  margin-bottom: 200px;
+}
+
+.detail-card .project-details-poster img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.detail-card .project-description h2{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.detail-card .project-description p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.detail-card .project-description li{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.detail-card .project-description .detail-button {
+  border: none;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: var(--primary);
+}
+.detail-card .project-description .detail-button a{
+  color: var(--font);
+  text-decoration: none;
+}
+
+.skills {
+  padding-top: 150px;
+}
+
+.skills h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.skills .list-skills img{
+  max-width: 100%;
+}
+
+.skills .list-frameworks img{
+  max-width: 100%;
+}
+
+.contact-page {
+  padding-top: 150px;
+}
+
+.contact-image img{
+  height: 200px;
+}
+
+.contact-page h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.link-contact .btn {
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.link-contact .resume {
+  background-color: var(--primary);
+}
+
+.link-contact .resume {
+  margin-bottom: 150px;
+}
+
+.footer {
+  padding-top: 150px;
+}
+
+.footer h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+.footer .sosial-media {
+  font-size: 35px;
+}
+
+.footer .logo img {
+  width: 100%;
+}
+
+
+
+
+
